@@ -15,6 +15,7 @@
 html,body { height:100%; margin:0; font-family: var(--font-stack); color:var(--text); background:var(--bg); -webkit-font-smoothing:antialiased; }
 header { background:var(--accent); color:#fff; padding:24px; }
 header h1 { margin:0; font-size:1.5rem; }
+header h1 { text-align: center; width: 100%; margin-left: 0; margin-right: 0; }
 main { max-width:var(--max-width); margin:28px auto; padding:0 16px; }
 .app { display:flex; gap:16px; align-items:center; background:var(--card-bg); padding:16px; border-radius:var(--radius); box-shadow:var(--shadow); margin-bottom:16px; }
 .app img { width:120px; height:120px; object-fit:cover; border-radius:8px; background:#eee; }
@@ -29,6 +30,8 @@ iframe#ad-frame { width:100%; height:90px; border:0; display:block; }
 .content-pad { padding: 16px; background:var(--card-bg); border-radius:8px; box-shadow:var(--shadow); margin-bottom:16px; }
 .privacy-title { margin-top:0; }
 @media (max-width:680px) {
+  header { padding: 20px 12px; }
+  header h1 { font-size: 1.5rem; }
   .app { flex-direction:column; text-align:center; }
   .app img { width:180px; height:180px; }
 }
