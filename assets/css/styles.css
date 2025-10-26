@@ -18,7 +18,7 @@ header h1 { margin:0; font-size:1.5rem; }
 header h1 { text-align: center; width: 100%; margin-left: 0; margin-right: 0; }
 main { max-width:var(--max-width); margin:28px auto; padding:0 16px; }
 .app { display:flex; gap:16px; align-items:center; background:var(--card-bg); padding:16px; border-radius:var(--radius); box-shadow:var(--shadow); margin-bottom:16px; }
-.app img { width:120px; height:120px; object-fit:cover; border-radius:8px; background:#eee; }
+.app img:not(.ms-badge) { width:120px; height:120px; object-fit:cover; border-radius:8px; background:#eee; }
 .app .meta { flex:1; }
 .app h2 { margin:0 0 8px 0; font-size:1.125rem; }
 .app p { margin:0 0 12px 0; color:var(--muted); }
@@ -29,11 +29,13 @@ iframe#ad-frame { width:100%; height:90px; border:0; display:block; }
 .container { padding: 8px 0 110px; } /* extra bottom padding to avoid overlap with fixed footer */
 .content-pad { padding: 16px; background:var(--card-bg); border-radius:8px; box-shadow:var(--shadow); margin-bottom:16px; }
 .privacy-title { margin-top:0; }
+.ms-badge {display: inline-block; width: 200px; height: auto; max-width: 100%; border-radius: 6px; background: transparent; object-fit: contain;}
 @media (max-width:680px) {
   header { padding: 20px 12px; }
   header h1 { font-size: 1.5rem; }
   .app { flex-direction:column; text-align:center; }
   .app img { width:180px; height:180px; }
+  .ms-badge { width: 160px; }
 }
 
 /* ads styles */
