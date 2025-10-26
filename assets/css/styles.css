@@ -29,7 +29,7 @@ iframe#ad-frame { width:100%; height:90px; border:0; display:block; }
 .container { padding: 8px 0 110px; } /* extra bottom padding to avoid overlap with fixed footer */
 .content-pad { padding: 16px; background:var(--card-bg); border-radius:8px; box-shadow:var(--shadow); margin-bottom:16px; }
 .privacy-title { margin-top:0; }
-.ms-badge {display: inline-block; width: 200px; height: auto; max-width: 100%; border-radius: 6px; background: transparent; object-fit: contain;}
+.ms-badge {display: inline-block; width: 200px; height: auto; max-width: 100%; border-radius: 6px; background: transparent; object-fit: contain; }
 .btn-publisher { margin-top: 4px; background: transparent; color: var(--accent); border: 2px solid var(--accent); padding: 8px 14px; border-radius: 8px; font-weight: 700; display: inline-block; text-decoration: none; }
 .btn-publisher:hover { background: var(--accent); color: #fff; }
 .btn-row { display: flex; justify-content: center; margin-top: 0px; }
