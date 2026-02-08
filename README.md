@@ -6,6 +6,7 @@ Arthurits Ltd. static site for Windows utility apps (Heat strain and Center wind
 |---|---|---|
 | **Heat strain** | <img src="./assets/images/heat-strain.svg" width="100" height="100" alt="Heat strain app image"> | [<img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200" alt="Get it from Microsoft Store">](https://apps.microsoft.com/detail/9NFZHJH28BHD?referrer=appbadge\&mode=direct) |
 | **Center windows** | <img src="./assets/images/center-windows.svg" width="100" height="100" alt="Heat strain app image"> | [<img src="https://get.microsoft.com/images/en-us%20dark.svg" width="200" alt="Get it from Microsoft Store">](https://apps.microsoft.com/detail/9P3RF1QPJ3QC?referrer=appbadge\&mode=direct) |
+| **Manual handling** | <img src="./assets/images/manual-handling.svg" width="100" height="100" alt="Heat strain app image"> | |
 
 - [Live site](https://arthurits.github.io)
 - [Repository path](https://github.com/arthurits/arthurits.github.io)
